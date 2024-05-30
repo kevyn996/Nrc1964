@@ -1,0 +1,161 @@
+/* PASO 1 MOSTRAR LOS ESTILOS DIRECTO CON LAS ETIQUETAS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333333;
+}
+
+header {
+    text-align: center;
+}
+
+@font-face {
+    font-family: a;
+    src: url(fuentes/a.otf);
+}
+
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end; /* Mover los elementos al lado derecho */
+    background: linear-gradient(to bottom, rgba(252, 243, 207, 0.877), rgba(226, 235, 210, 0.514));
+    padding:15px 20px 10px 10px; /* Ajustar padding para mejor apariencia */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding-bottom: 20px;
+    right: 0;
+    z-index: 1000;
+
+}
+
+.nav-links a {
+    margin-right: 20px; /* Espacio entre los enlaces */
+}
+
+.title {
+    margin-left: 20px; /* Espacio entre el título y los enlaces */
+    display: flex;
+    position: fixed;
+    padding:105px 20px 10px 20px;
+    color: #030303;
+    font-size: 85px;
+    font-family: a;
+    margin-left: 100px;
+}
+.articulo{
+    padding: 300px 100px;
+}
+.faciales{
+    position: absolute;
+    top: 930px;
+}
+.faciales1{
+    position: absolute;
+    top: 930px;
+    right: 280px;
+}
+.faciales2{
+    position: absolute;
+    top: 930px;
+    left: 260px;
+}
+.subtitulo{
+    position: absolute;
+    top: 850px;
+    right: 600px;
+}
+h5{
+    font-size: 30px;
+}
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 10px; /* Añadir margen derecho */
+    color: rgb(10, 10, 10);
+}
+
+.navbar a:last-child {
+    margin-right: 0; /* Quitar margen derecho del último enlace */
+}
+
+.navbar a:hover {
+    background-color: #99d19c;
+}
+
+
+.prueba1 {
+    
+    margin-left: 40%;
+    padding: 20px;
+    margin-right: 5%;
+    position: relative;
+    bottom: 120px;
+}
+.travel { position: absolute;
+    top: 125px;
+    left: 200px;
+    width: 25%;
+    border-radius: 5px;
+
+}
+h2 {
+    margin-bottom: 40px;
+    font-size: 40px;
+    margin-left: 0%;
+    
+}
+article {
+    background-color: #fff;
+    border: 0px solid #ddd;
+    border-radius: 5px;
+    padding: 150px 150px;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(252, 243, 207, 0.336));
+    text-align: center;}
+   
+    .diseño{
+        width: 30%;
+        margin-top: 180px;
+        margin-left: 0px;
+        border-radius: 5px;
+        border: 1px solid rgba(252, 243, 207,)
+    }
+    .relleno { display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        }
+        
+    .mini {
+            width: 30%;  
+            transition: transform 0.3s;
+            cursor: pointer;
+            padding: 60px;
+              
+        }
+
+        h6  {
+        margin-bottom: 900px;
+        font-size: 40px;
+        margin-left: 0%;
+        text-align: center;
+        }
+    footer {
+        background: linear-gradient(to bottom, rgba(173, 240, 176, 0.199), rgb(7, 7, 7));
+        color: #ffffff;
+        padding: 5px 0;
+        text-align: center;
+        width: 100%;
+        position: fixed;
+    }
